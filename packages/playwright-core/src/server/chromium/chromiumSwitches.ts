@@ -43,6 +43,9 @@ const disabledFeatures = [
   'Translate',
   // See https://issues.chromium.org/u/1/issues/435410220
   'AutoDeElevate',
+  // See https://github.com/microsoft/playwright/issues/42142
+  // See https://issues.chromium.org/40615943
+  'RenderDocument',
   // Prevents downloading optimization hints on startup.
   'OptimizationHints',
   // Disables forced sign-in in Edge.
